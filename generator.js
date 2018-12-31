@@ -99,7 +99,8 @@ var aktorzy_male = [
 "Jakub Wesołowski",
 "Rafał Rutkowski",
 "Piotr Głowacki",
-"Dariusz Kowalski"
+"Dariusz Kowalski",
+"Kot Dante"
 ];
 
 var aktorzy_female = [
@@ -128,7 +129,7 @@ var zawod = [
 "ma problemy emocjonalne",
 "ma problem ze swoją płcią",
 "został lewakiem",
-"zaczął robić karierę rapu z Eminmem",
+"zaczął robić karierę rapu z Eminemem",
 "naucza w kościele Latającego Potwora Spaghetti",
 "zostaje prezydentem Polski",
 "został żebrakiem",
@@ -151,7 +152,7 @@ var zawod = [
 "został polskim kabareciarzem",
 "ściga przestępców podatkowych",
 "poucza w szkole",
-"kłócił się z fanem DC",
+"pokłócił się z fanem DC",
 "zdaje sesję",
 "szuka pracy",
 "pracuje jako sprzątacz",
@@ -162,6 +163,7 @@ var zawod = [
 "pracuje w pralni",
 "wyemigrował z Europy",
 "rysuje komiksy o swoich przygodach, jednak dostaje wypowiedzenie z pracy od Marvela",
+"porzucił swoją przeszłość, i postanowił zostać kapłanem",
 "zaczął nagrywać swoje utwory Disco Polo",
 "programuje w Javie"
 ];
@@ -264,7 +266,8 @@ var co_postanawia = [
 "ugotować pierogi",
 "zadzwnonić do teściowej",
 "pić wino do samego rana",
-"rzucić ten związek i spędzić dalsze życie z kotami"
+"rzucić ten związek i spędzić dalsze życie z kotami",
+"rzucić to wszystko i wyjechać w Bieszczady"
 ];
 
 var a_co_z_wrogiem = [
@@ -288,6 +291,7 @@ var a_co_z_wrogiem = [
 "nie wie, że jest ojcem jej przyszego dziecka",
 "wstał i zaczął bić im brawo",
 "podstawił im pod drzwi stado kotów, coś przy tym sugerując...",
+"zaczął kwestionować w swój sens życia",
 "czasami odwiedza ją w nocy"
 ];
 
@@ -304,6 +308,7 @@ var ale_czy_co = [
 "zarobią na małego fiata",
 "uda się zarobić większą kasę",
 "pokonają zło, jakie ciąży nad ziemią",
+"uniknąć poborcy podatkowego",
 "Polska przetrwa atomową apokalipsę"
 ];
 
