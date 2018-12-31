@@ -171,10 +171,11 @@ var kto = [
 "pieniądz",
 "goście odpowiedzialni za MCU",
 "koleżanka",
+"połowa Śląska".
 "jego kostium",
 "rząd USA",
 "były Prezydent USA",
-"ludzie od IT",
+"ludkość od IT",
 "jej ex-przyjacióła",
 "jego ręka",
 "Hitler",
@@ -214,8 +215,8 @@ var co_z_kobieta = [
 
 var co_sie_dzieje = [
 "zdradza ją z jej najlepszą koleżanką",
-"on ginie w wyniku eksplozji atomowej",
-"on ginie potrącony przez samochód",
+"ginie w wyniku eksplozji atomowej",
+"ginie potrącony przez samochód",
 "ginie w niewyjaśnionych okolicznościach",
 "zostaje porwany przez UFO",
 "był kosmitą",
@@ -328,6 +329,6 @@ function odmien(imie){
 }
 
 function generuj(){
-	var zdanie = losuj(bohaterowie_male) + " (" + losuj(aktorzy_male) + ") " +  losuj(zawod) + " i próbuje stworzyć związek z " + losuj(bohaterowie_female) + " (" + losuj(aktorzy_female) + ")" + ", która " + losuj(co_z_kobieta) + ". Niestety, okazuje się, że" + losuj(kto) + losuj(co_sie_dzieje) + ", więc ona postanawia " + losuj(co_postanawia) + ". Tymczasem " + losuj(evilman) + " (" + losuj(aktorzy_male) + ") " + losuj(a_co_z_wrogiem) +". Ale czy " + losuj(ale_czy_co) + "?";
+	var zdanie = losuj(bohaterowie_male) + " (" + losuj(aktorzy_male) + ") " +  losuj(zawod) + " i próbuje stworzyć związek z " + losuj(bohaterowie_female) + " (" + losuj(aktorzy_female) + ")" + ", która " + losuj(co_z_kobieta) + ". Niestety, okazuje się, że " + losuj(kto) + " " + losuj(co_sie_dzieje) + ", więc ona postanawia " + losuj(co_postanawia) + ". Tymczasem " + losuj(evilman) + " (" + losuj(aktorzy_male) + ") " + losuj(a_co_z_wrogiem) +". Ale czy " + losuj(ale_czy_co) + "?";
 	document.getElementById("gen").innerText = zdanie;
 }
