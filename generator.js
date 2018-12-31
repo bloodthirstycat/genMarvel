@@ -198,6 +198,7 @@ var co_z_kobieta = [
 "próbowała owniąć go wokół palca",
 "przepaliła pierogi",
 "przesoliła zupę",
+"skończyła europeistykę",
 "zapłaciła podatek w naturze",
 "przebłagała chłopaka, żeby kupił jej działkę",
 "hoduje podejrzane kwiatki",
@@ -226,6 +227,9 @@ var co_sie_dzieje = [
 "posiada zdolność latania",
 "posiada kamień nieskończoności w swojej dupie",
 "przechodzi na stronę zła",
+"wypił za dużo wódki",
+"Olał zaloty",
+"Dostał moc rozbierania wzrokiem",
 "dostaje misję uratowania wszechświata",
 "zostaje wystrzelony na marsa i raczej nie wróci",
 "zostaje wysłany na misję samobójczą",
@@ -255,10 +259,10 @@ var co_postanawia = [
 "spędzać więcej czasu z rodziną",
 "spędzić noc z jego sąsiadem",
 "zrobić remont w domu",
-"znaleźć innego faceta, póki może",
+"znaleźć innego faceta, póki jeszcze może",
 "ugotować pierogi",
 "zadzwnonić do teściowej",
-"upić się do rana",
+"pić wino do samego rana",
 "rzucić ten związek i spędzić dalsze życie z kotami"
 ];
 
@@ -296,6 +300,7 @@ var ale_czy_co = [
 "Peter Parker przestanie być ciamajdą",
 "Polacy dostaną się do Mistrzostw Świata",
 "walcząc z demonami dowiedzą się prawdy o sobie",
+"uda się zarobić większą kasę",
 "pokonają zło, jakie ciąży nad ziemią",
 "Polska przetrwa atomową apokalipsę"
 ];
@@ -323,6 +328,6 @@ function odmien(imie){
 }
 
 function generuj(){
-	var zdanie = losuj(bohaterowie_male) + " (" + losuj(aktorzy_male) + ") " +  losuj(zawod) + " i próbuje stworzyć związek z " + losuj(bohaterowie_female) + " (" + losuj(aktorzy_female) + ")" + ", która " + losuj(co_z_kobieta) + ". Niestety, okazuje się, że ten " + losuj(co_sie_dzieje) + ", więc ona postanawia " + losuj(co_postanawia) + ". Tymczasem " + losuj(evilman) + " (" + losuj(aktorzy_male) + ") " + losuj(a_co_z_wrogiem) +". Ale czy " + losuj(ale_czy_co) + "?";
+	var zdanie = losuj(bohaterowie_male) + " (" + losuj(aktorzy_male) + ") " +  losuj(zawod) + " i próbuje stworzyć związek z " + losuj(bohaterowie_female) + " (" + losuj(aktorzy_female) + ")" + ", która " + losuj(co_z_kobieta) + ". Niestety, okazuje się, że" + losuj(kto) + losuj(co_sie_dzieje) + ", więc ona postanawia " + losuj(co_postanawia) + ". Tymczasem " + losuj(evilman) + " (" + losuj(aktorzy_male) + ") " + losuj(a_co_z_wrogiem) +". Ale czy " + losuj(ale_czy_co) + "?";
 	document.getElementById("gen").innerText = zdanie;
 }
