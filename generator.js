@@ -298,9 +298,10 @@ var ale_czy_co = [
 "meteory zniszczą ziemię",
 "dzięki temu DC Universe zacznie mieć lepsze wyniki finansowe",
 "dostaną pieniądze z 500+, gdy mają wyższe zarobki",
-"Peter Parker przestanie być ciamajdą",
+"Peter Parker przestanie być takim ciamajdą",
 "Polacy dostaną się do Mistrzostw Świata",
 "walcząc z demonami dowiedzą się prawdy o sobie",
+"zarobią na małego fiata",
 "uda się zarobić większą kasę",
 "pokonają zło, jakie ciąży nad ziemią",
 "Polska przetrwa atomową apokalipsę"
