@@ -173,7 +173,7 @@ var kto = [
 "pieniądz",
 "goście odpowiedzialni za MCU",
 "koleżanka",
-"połowa Śląska".
+"połowa Śląska",
 "jego kostium",
 "rząd USA",
 "były Prezydent USA",
