@@ -52,6 +52,7 @@ var bohaterowie_female = [
 "Vanessa",
 "HellCat",
 "Hela",
+"Kitty Pride",
 "Elektra"
 ];
 
@@ -81,6 +82,19 @@ var evilman = [
 
 var aktorzy_male = [
 "Mikołaj Roznerski",
+"Wojciech Cejrowski",
+"Korwin",
+"Bercik",
+"Marcin Daniec",
+"Abelard Giza",
+"Robert Górski",
+"Cezary Pazura",
+"ten menel spod sklepu",
+"proboszcz",
+"papież",
+"Artur Andrus",
+"Eugeniusz Bono",
+"Tadeusz Drozda",
 "Krzysztof Czeczot",
 "Paweł Domagała",
 "Łukasz Garlicki",
@@ -113,6 +127,8 @@ var aktorzy_female = [
 "Barbara Kurdej-Szatan",
 "Anna Dereszowska",
 "Danuta Stenka",
+"Anna Mucha",
+"Katarzyna Figura",
 "Katarzyna Bujakiewicz",
 "Sonia Bohosiewicz",
 "Małgorzata Kożuchowska",
@@ -126,6 +142,7 @@ var aktorzy_female = [
 "Roma Gąsiorowska",
 "Izabela Kuna",
 "Olga Bołądź",
+"Joanna Bartel",
 "Agnieszka Więdłocha"
 ];
 
@@ -143,7 +160,7 @@ var zawod = [
 "pracuje dla Janusza Tracza",
 "został żebrakiem",
 "ma problemy psychiczne",
-"rozmawiał z rysownikiem Marvela, i go pobił",
+"pobił rysownika Marvela",
 "skończył szkołę marketingu",
 "został programistą baz danych",
 "skoczył z mostu",
@@ -155,6 +172,7 @@ var zawod = [
 "zgwałcił Skrulla",
 "zagiął Matta Murlocka w znajomości prawa",
 "nasrał do zbroi",
+"odkrył, skąd biorą się dzieci",
 "nasikał sobie do kostiumu",
 "rozdaje ulotki",
 "zwątpił w swój cel życiowy",
@@ -198,6 +216,9 @@ var kto = [
 "ludkość od IT",
 "jej ex-przyjacióła",
 "jej ręka",
+"Stalin",
+"Rasputin",
+"chinski cesarz",
 "Hitler",
 "jego teść",
 "jego noga",
