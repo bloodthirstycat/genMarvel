@@ -61,6 +61,7 @@ var evilman = [
 "Venom",
 "Ichabod",
 "Purple Man",
+"HobGoblin",
 "Red Skull",
 "Sabertooth",
 "Foggy Nelson",
@@ -100,7 +101,9 @@ var aktorzy_male = [
 "Rafał Rutkowski",
 "Piotr Głowacki",
 "Dariusz Kowalski",
-"Kot Dante"
+"Paźdioch",
+"Ferdek Kiepski",
+"Waldemar Kiepski"
 ];
 
 var aktorzy_female = [
@@ -125,13 +128,15 @@ var aktorzy_female = [
 ];
 
 var zawod = [
-"dołącza się do X-men ",
+"dołączył się do X-men ",
+"dołączył do Defenders",
 "ma problemy emocjonalne",
 "ma problem ze swoją płcią",
 "został lewakiem",
 "zaczął robić karierę rapu z Eminemem",
 "naucza w kościele Latającego Potwora Spaghetti",
 "zostaje prezydentem Polski",
+"pracuje dla Janusza Tracza",
 "został żebrakiem",
 "ma problemy psychiczne",
 "rozmawiał z rysownikiem Marvela, i go pobił",
@@ -151,7 +156,7 @@ var zawod = [
 "zniszczył mienie publiczne",
 "został polskim kabareciarzem",
 "ściga przestępców podatkowych",
-"poucza w szkole",
+"naucza w szkole",
 "pokłócił się z fanem DC",
 "zdaje sesję",
 "szuka pracy",
@@ -162,9 +167,11 @@ var zawod = [
 "opiekuje się kotami",
 "pracuje w pralni",
 "wyemigrował z Europy",
+"choduje wielbłądy",
 "rysuje komiksy o swoich przygodach, jednak dostaje wypowiedzenie z pracy od Marvela",
 "porzucił swoją przeszłość, i postanowił zostać kapłanem",
 "zaczął nagrywać swoje utwory Disco Polo",
+"wie, że Ziemia jest płaska",
 "programuje w Javie"
 ];
 
@@ -173,6 +180,7 @@ var kto = [
 "pieniądz",
 "goście odpowiedzialni za MCU",
 "koleżanka",
+"premier",
 "połowa Śląska",
 "jego kostium",
 "rząd USA",
@@ -181,15 +189,17 @@ var kto = [
 "jej ex-przyjacióła",
 "jego ręka",
 "Hitler",
-"pies",
-"kot",
+"jego teść",
+"jego noga",
+"jej pies",
+"ich kot",
 "chłopak",
 "babcia",
 "dziadek",
 "chomik",
 "brat",
 "Daily Bugle",
-"Marvel",
+"cały Marvel",
 "kuzyn",
 "ich sąsiad",
 "ex"
@@ -201,16 +211,28 @@ var co_z_kobieta = [
 "próbowała owniąć go wokół palca",
 "przepaliła pierogi",
 "przesoliła zupę",
+"prowadzi vbloga o modzie",
+"skrytkowała polski rząd",
+"jest antyszczepionkowcem",
 "skończyła europeistykę",
 "zapłaciła podatek w naturze",
 "przebłagała chłopaka, żeby kupił jej działkę",
 "hoduje podejrzane kwiatki",
+"padła na pierwszym pytaniu w Milonerach",
 "zdradziła go z sąsiadem",
+"z zupy pomidorowej zrobiła rosół",
+"została zwolniona z baru szybkiej obsługi",
+"nie zdała matury",
+"rozbiła samochód podczas egzaminu na prawo jazdy",
 "poznała sekretną tożsamość jej chłopaka na Tinderze",
+"przepaliła wodę",
+"występuje w reklamie środków żrących",
+"rozlała wódkę",
 "przytyła o 20 kg",
 "występuje jako aktorka porno",
 "prowadzi burdel",
 "zalega z czynszem",
+"wypiła za dużo wódki",
 "nie chciała spełnić jego chorych zachcianek",
 "zaczeła kupować komiksy z DC"
 ];
@@ -226,12 +248,13 @@ var co_sie_dzieje = [
 "przestaje się do niej odzywać",
 "posiada zdolności paranormalne",
 "posiada zdolności magiczne",
+"widziała Smoka",
 "posiada zdolność rozmawiania ze zwierzętami",
 "posiada zdolność latania",
 "posiada kamień nieskończoności w swojej dupie",
 "przechodzi na stronę zła",
-"wypił za dużo wódki",
-"Olał zaloty",
+"wykupili prenumeratę Daily Bugle",
+"Olało jej zaloty",
 "Dostał moc rozbierania wzrokiem",
 "dostaje misję uratowania wszechświata",
 "zostaje wystrzelony na marsa i raczej nie wróci",
@@ -253,6 +276,9 @@ var co_postanawia = [
 "wspiąć się na Mount Everest",
 "nauczyć się gotować",
 "nauczyć się tańczyć",
+"dołączyć do SHIELD",
+"dołączyć do HYDRY",
+"dołączyć do HAMMER",
 "skoczyć na bungee",
 "wyruszyć na podróż by go / ją odszukać",
 "się zemścić",
@@ -267,6 +293,7 @@ var co_postanawia = [
 "zadzwnonić do teściowej",
 "pić wino do samego rana",
 "rzucić ten związek i spędzić dalsze życie z kotami",
+"odnaleźć Kun-lun i sprać dupsko Iron Fistowi",
 "rzucić to wszystko i wyjechać w Bieszczady"
 ];
 
@@ -306,9 +333,11 @@ var ale_czy_co = [
 "Polacy dostaną się do Mistrzostw Świata",
 "walcząc z demonami dowiedzą się prawdy o sobie",
 "zarobią na małego fiata",
-"uda się zarobić większą kasę",
+"sługi Thanosa zaczną uczciwie pracować",
+"uda się zarobić na tym większą kasę",
 "pokonają zło, jakie ciąży nad ziemią",
-"uniknąć poborcy podatkowego",
+"unikną poborcy podatkowego",
+"Polska dogoni gospodarczo całą Europę",
 "Polska przetrwa atomową apokalipsę"
 ];
 
