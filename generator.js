@@ -396,7 +396,6 @@ var a_co_z_wrogiem = [
 
 var ale_czy_co = [
 "ich związek przetrwa próbę czasu",
-"przekonają lewaków do prawicowych ideii?",
 "uda im się wywołać Batmana, gdy użyli symbolu Supermana na latarnii",
 "uda im się odnaleźć Power Rangers",
 "uda im się wywołać Kapitana Planetę",
